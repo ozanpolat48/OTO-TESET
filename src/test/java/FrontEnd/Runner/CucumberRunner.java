@@ -13,11 +13,9 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue = "FrontEnd/StepDefinitions",
-        dryRun = false,
-        tags = ""
+        dryRun = true,
+        tags = "@reset"
+   )
 
-)
 public class CucumberRunner {
-
-
 }

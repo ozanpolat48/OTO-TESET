@@ -15,7 +15,7 @@ public class ConfigurationReader {
         try {
 
             //2- We need to open the file in java memory: FileInputStream
-            FileInputStream file = new FileInputStream("configuration.properties");
+            FileInputStream file = new FileInputStream("Configuration.properties");
 
             //3- Load the properties object using FileInputStream object
             properties.load(file);
